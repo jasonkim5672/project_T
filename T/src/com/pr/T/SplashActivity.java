@@ -29,8 +29,8 @@ public class SplashActivity extends Activity {
     class splashhandler implements Runnable {
         @Override
         public void run() {
-			Intent intent1 = new Intent(SplashActivity.this, MainActivity.class);
-			startActivity(intent1);
+			Intent intent_start = new Intent(SplashActivity.this, MainActivity.class);
+			startActivity(intent_start);
 
             finish();
         }        
