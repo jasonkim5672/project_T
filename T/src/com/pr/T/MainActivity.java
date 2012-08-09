@@ -7,8 +7,8 @@ import android.view.Menu;
 public class MainActivity extends Activity {
 
 	@Override
-	public void onCreate(Bundle ds) {
-		super.onCreate(ds);
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
 	}
